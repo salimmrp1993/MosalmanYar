@@ -1,0 +1,311 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mosalmanyar.herotech.mosalmanyar.Fragments.DoaFragment">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/img_food"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="52dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:src="@drawable/more_halal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/img_allah" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/img_all"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="72dp"
+            android:layout_marginLeft="72dp"
+            android:layout_marginTop="52dp"
+            android:layout_marginEnd="72dp"
+            android:layout_marginRight="72dp"
+            android:background="@drawable/more_duas"
+            app:layout_constraintEnd_toStartOf="@+id/img_food"
+            app:layout_constraintStart_toEndOf="@+id/img_death"
+            app:layout_constraintTop_toBottomOf="@+id/ing_pray" />
+
+        <ImageView
+            android:id="@+id/img_death"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="52dp"
+            android:src="@drawable/duas_sicknessdeath"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/img_travel" />
+
+        <ImageView
+            android:id="@+id/img_travel"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="52dp"
+            android:src="@drawable/duas_travel"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/im_joy" />
+
+        <ImageView
+            android:id="@+id/img_allah"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="52dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:src="@drawable/duas_praisingallah"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/img_nature" />
+
+        <ImageView
+            android:id="@+id/ing_pray"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="72dp"
+            android:layout_marginLeft="72dp"
+            android:layout_marginTop="52dp"
+            android:layout_marginEnd="72dp"
+            android:layout_marginRight="72dp"
+            android:src="@drawable/duas_prayer"
+            app:layout_constraintEnd_toStartOf="@+id/img_allah"
+            app:layout_constraintStart_toEndOf="@+id/img_travel"
+            app:layout_constraintTop_toBottomOf="@+id/img_ev" />
+
+        <ImageView
+            android:id="@+id/im_joy"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="52dp"
+            android:src="@drawable/duas_joydistress"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/img_good" />
+
+        <ImageView
+            android:id="@+id/img_good"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="42dp"
+            android:src="@drawable/duas_goodetiquette"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/img_home"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="42dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:src="@drawable/duas_homefamily"
+            app:layout_constraintEnd_toStartOf="@+id/img_haj"
+            app:layout_constraintStart_toEndOf="@+id/img_good"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/img_haj"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="42dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:src="@drawable/duas_hajjumrah"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/img_nature"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="52dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:src="@drawable/duas_nature"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/img_haj" />
+
+        <ImageView
+            android:id="@+id/img_ev"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="52dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:src="@drawable/duas_morningevening"
+            app:layout_constraintEnd_toStartOf="@+id/img_nature"
+            app:layout_constraintStart_toEndOf="@+id/im_joy"
+            app:layout_constraintTop_toBottomOf="@+id/img_home" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/good_dua"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/img_good"
+            app:layout_constraintStart_toStartOf="@+id/img_good"
+            app:layout_constraintTop_toBottomOf="@+id/img_good" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/home_dua"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/img_home"
+            app:layout_constraintStart_toStartOf="@+id/img_home"
+            app:layout_constraintTop_toBottomOf="@+id/img_home" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/haj_dua"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/img_haj"
+            app:layout_constraintStart_toStartOf="@+id/img_haj"
+            app:layout_constraintTop_toBottomOf="@+id/img_haj" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/good_dua"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/im_joy"
+            app:layout_constraintStart_toStartOf="@+id/im_joy"
+            app:layout_constraintTop_toBottomOf="@+id/im_joy" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/morning_dua"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/img_ev"
+            app:layout_constraintStart_toStartOf="@+id/img_ev"
+            app:layout_constraintTop_toBottomOf="@+id/img_ev" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/nature_dua"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/img_nature"
+            app:layout_constraintStart_toStartOf="@+id/img_nature"
+            app:layout_constraintTop_toBottomOf="@+id/img_nature" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/travel_dua"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/img_travel"
+            app:layout_constraintStart_toStartOf="@+id/img_travel"
+            app:layout_constraintTop_toBottomOf="@+id/img_travel" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/prayer_dua"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/ing_pray"
+            app:layout_constraintStart_toStartOf="@+id/ing_pray"
+            app:layout_constraintTop_toBottomOf="@+id/ing_pray" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/parising_dua"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/img_allah"
+            app:layout_constraintStart_toStartOf="@+id/img_allah"
+            app:layout_constraintTop_toBottomOf="@+id/img_allah" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/sleep_dua"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/img_death"
+            app:layout_constraintStart_toStartOf="@+id/img_death"
+            app:layout_constraintTop_toBottomOf="@+id/img_death" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/all_dua"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/img_all"
+            app:layout_constraintStart_toStartOf="@+id/img_all"
+            app:layout_constraintTop_toBottomOf="@+id/img_all" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/drink_dua"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/img_food"
+            app:layout_constraintStart_toStartOf="@+id/img_food"
+            app:layout_constraintTop_toBottomOf="@+id/img_food" />
+
+    </android.support.constraint.ConstraintLayout>
+</FrameLayout>

@@ -1,0 +1,113 @@
+<resources>
+    <!--application name-->
+    <string name="app_name">مسلمان یار</string>
+    <string name="bottom_doa">دعاها</string>
+    <string name="bottom_tasbih">تسبیح شمار</string>
+    <string name="bottom_comase">قبله نما</string>
+    <!--دعا ها  منو-->
+    <string name="drink_dua">غذا ها و نوشیدنی ها</string>
+    <string name="all_dua">همه دعاها</string>
+    <string name="sleep_dua">بیماری و مرگ</string>
+    <string name="parising_dua">طلب حفاظت از خدا</string>
+    <string name="prayer_dua">دعای نماز</string>
+    <string name="travel_dua">دعای سفر</string>
+    <string name="nature_dua">طبیعت</string>
+    <string name="morning_dua">صبح و عصر</string>
+    <string name="joy_dua">شادی وناراحتی</string>
+    <string name="haj_dua">حج و عمره</string>
+    <string name="home_dua">خانه و خانواده</string>
+    <string name="good_dua">آداب خوب</string>esources>
+    <!--دعا ها  لیست-->
+    <string name="list_doas_1">موقع بیدار شدن</string>esources>
+    <string name="list_doas_2">موقع پوشیدن لباس</string>esources>
+    <string name="list_doas_3">موقع پوشیدن لباس جدید</string>esources>
+    <string name="list_doas_4">موقع پوشیدن لباس جدید اطرافیان</string>esources>
+    <string name="list_doas_5">قبل از لباس پوشیدن</string>esources>
+    <string name="list_doas_6">قبل از وارد شدن به دستشویی</string>esources>
+    <string name="list_doas_7">بعد از خروج از دستشویی</string>esources>
+    <string name="list_doas_8">هنگام شروع وضو گرفتن</string>esources>
+    <string name="list_doas_9">بعد از اتمام وضو</string>esources>
+    <string name="list_doas_10">هنگام خروج از خانه</string>esources>
+    <string name="list_doas_11">هنگام ورود به خانه</string>esources>
+    <string name="list_doas_12">موقع رفتن به مسجد</string>esources>
+    <string name="list_doas_13">هنگام وارد شدن به مسجد</string>esources>
+    <string name="list_doas_14">هنگام خروج از مسجد</string>esources>
+    <string name="list_doas_15">دعای آغاز نماز</string>esources>
+    <string name="list_doas_16">موقع رکوع</string>esources>
+    <string name="list_doas_17">هنگام بلند شدن از رکوع</string>esources>
+    <string  name="list_doas_18">هنگام سجده</string> esources>
+    <string name="list_doas_19">تشهد</string>esources>
+    <string name="list_doas_20">یادآوری بعد از سلام</string>esources>
+    <string name="list_doas_21">برای راهنمایی گرفتن موقع تصمیم گیری</string>esources>
+    <string name="list_doas_22">یادآوری خدا هنگام صبح و عصر</string>esources>
+    <string name="list_doas_23">قبل از خواب</string>esources>
+    <string name="list_doas_24">قبل از طلوع آفتاب (تغییر شب)</string>esources>
+    <string name="list_doas_25">پس از تجربه با نا آرامی از خواب بیدار شدن</string>esources>
+    <string name="list_doas_26">پس از دیدن خواب بد یا خوب</string>esources>
+    <string name="list_doas_27">دعا در نماز جماعت</string>esources>
+    <string name="list_doas_28">بلافاصله بعد از سلام داده در نماز وتر</string>esources>
+    <string name="list_doas_29">برای اضطراب و غم و اندوه</string>esources>
+    <string name="list_doas_30">برای یکی که در ناراحتیست</string>esources>
+    <string name="list_doas_31">با مواجه شدن با یک دشمن یا یک قدرت</string>esources>
+    <string name="list_doas_32">علیه دشمنان</string>esources>
+    <string name="list_doas_33">هنگامی که گروهی از مردم ترسیدند</string>esources>
+    <string name="list_doas_34">پرداخت بدهی</string>esources>
+    <string name="list_doas_35">پس از انجام گناه</string>esources>
+    <string name="list_doas_36">برای کسی که درگیر امور دشواری شده است</string>esources>
+    <string name="list_doas_37">برای اخراج شیطان و زمزمه های او</string>esources>
+    <string name="list_doas_38">هنگام خوشبختی و رونق گرفتن</string>esources>
+    <string name="list_doas_39">قرار دادن کودکان تحت حمایت خداوند</string>esources>
+    <string name="list_doas_40">هنگام بازدید از بیمار</string>esources>
+    <string name="list_doas_41">موقع خوب بودن حال بیمار</string>esources>
+    <string name="list_doas_42">هنگامی که بیمار از بیماری سختی جان سالم بدر برده است</string>esources>
+    <string name="list_doas_43">دعا برای بیمار در حال مرگ</string>esources>
+    <string name="list_doas_44">برای فرد دچار مصیبت شده</string>esources>
+    <string name="list_doas_45">زمانی که چشم های مرحوم بسته شد</string>esources>
+    <string name="list_doas_46">برای مرحوم در نماز مراسم تشییع جنازه</string>esources>
+    <string name="list_doas_47">برای مرحوم فرزند در نماز مراسم خاکسپاری</string>esources>
+    <string name="list_doas_48">تسلیت</string>esources>
+    <string name="list_doas_49">قرار دادن مرحوم در قبر</string>esources>
+    <string name="list_doas_50">بازدید از قبر</string>esources>
+    <string name="list_doas_51">هنگام طوفان و باد</string>esources>
+    <string name="list_doas_52">پس از شنیدن رعد و برق</string>esources>
+    <string name="list_doas_53">برای طلب باران</string>esources>
+    <string name="list_doas_54">وقتی باران می آید</string>esources>
+    <string name="list_doas_55">پس از بارش باران</string>esources>
+    <string name="list_doas_56">دعای درخواست آسمان روشن</string>esources>
+    <string name="list_doas_57">بعد از دیدن حلال ماه</string>esources>
+    <string name="list_doas_58">پس از شکستن سریع</string>esources>
+    <string name="list_doas_59">قبل از غذا خوردن</string>esources>
+    <string name="list_doas_60">بعد از غذا خوردن</string>esources>
+    <string name="list_doas_61">از مهمان برای میزبان</string>esources>
+    <string name="list_doas_62">هنگام شکستگن سریع روزه در خانه</string>esources>
+    <string name="list_doas_63">هنگامی که روزه می گیری</string>esources>
+    <string name="list_doas_64">با دیدن میوه زودرس یا نارس</string>esources>
+    <string name="list_doas_65">بر عطسه</string>esources>
+    <string name="list_doas_66">هنگامی که یک متفکر بخاطر عطسه خدا را ستایش می کند</string>esources>
+    <string name="list_doas_67">برای تازه وارد</string>esources>
+    <string name="list_doas_68">هنگام خرید یک حیوان</string>esources>
+    <string name="list_doas_69">قبل از رابطه جنسی یا مقاربت</string>esources>
+    <string name="list_doas_70">هنگام عصبانیت</string>esources>
+    <string name="list_doas_71">پس از دیدن کسی در محاکمه یا مصیبت</string>esources>
+    <string name="list_doas_72">در نشست یا گردآوری</string>esources>
+    <string name="list_doas_73">به کسی که به نفع شماست</string>esources>
+    <string name="list_doas_74">حفاظت از دجال</string>esources>
+    <string name="list_doas_75">به کسی که عشق خود را برای شما به خاطر خدا تلفظ می کند</string>esources>
+    <string name="list_doas_76">زمانی که بدهی او پرداخت می شود، به بدهکار است</string>esources>
+    <string name="list_doas_77">برای ترس از شرک</string>esources>
+    <string name="list_doas_78">پیشگیری از تسلیم چیزها به معنای</string>esources>
+    <string name="list_doas_79">برای سفر</string>esources>
+    <string name="list_doas_80">پس از ورود به شهر یا روستا</string>esources>
+    <string name="list_doas_81">هنگام ورود به فروشگاه</string>esources>
+    <string name="list_doas_82">درخواست مسافر برای میزبان سفر هنگام خداحافظی</string>esources>
+    <string name="list_doas_83">درخواست میزبان برای مسافر</string>esources>
+    <string name="list_doas_84"></string>esources>
+
+
+
+
+
+
+
+
+</resources>
